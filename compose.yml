@@ -3,7 +3,7 @@ services:
     image: qemux/qemu
     container_name: qemu
     environment:
-      BOOT: "ubuntu"
+      BOOT: "https://dl.google.com/dl/edgedl/chromeos/recovery/chromeos_16371.49.0_reven_recovery_stable-channel_mp-v8.bin.zip"
       RAM_SIZE: "12G"
       CPU_CORES: "4"
     devices:
